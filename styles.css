@@ -1,0 +1,38 @@
+body {
+    margin: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+    box-shadow:5px 5px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: skyblue;
+    color: #2b2839;
+    border-bottom: 6px solid orangered;
+    border-radius: 10px;
+            
+}
+.card:hover{
+    box-shadow: 10px 10px 10px 10px lightgreen;
+}
+
+.border-blue {
+    border: 1px dashed lightpink;
+    border-radius: 5px;
+}
+
+h3:hover, h4:hover, p:hover {
+    background-color: whitesmoke;
+    
+}
+
+
